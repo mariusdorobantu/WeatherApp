@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    color: #f5fcff;
+    font-family: 'Brush Script MT', cursive;
+    line-height: 1.1;
+}
+
+body {
+    background-image: url("/pics/lightning_bolt_cover.jpg");
+    background-size: cover;
+}   
+
+.input--container {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+input {
+    border-radius: 5px;
+    width: 240px;
+    padding: 5px;
+    background-color: transparent;
+    margin-right: 15px;
+    border: 1px solid #f5fcff;
+}
+
+input::placeholder {
+    color: #f5fcff;
+}
+
+button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 0;
+    background: #83C0C1;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.city--name {
+    font-size: 1.3rem;
+}
+
+.city--degrees {
+    font-size: 3rem;
+}
+
+.weather--reco {
+    font-size: 0.7rem;
+}
+
+.app--container {
+    margin-top: 250px;
+    max-width: 400px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(60, 64, 67, 0.302),
+                0 3px 9px 2px rgba(60, 64, 67, 0.149);
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    border-radius: 25px;
+}
+
+.weather--details {
+    right: 0;
+    padding: 15px 35px 0 0;
+    text-align: center;
+}
+
+.earth--hero {
+    height: 300px;
+    width: 220px;
+}
+
+.hero--container {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+}
+
+.promo--hero {
+    width: 100px;
+    margin-top: 35px;
+    line-height: 1.3em;
+}
+
+.advice--text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.images {
+    width: 200px;
+    height: 150px;
+}
+
+.weather--img {
+    display: none;
+}
+
+.weather--img.visible {
+    display: block;
+}
+
+.sun--test {
+    width: 150px;
+    height:auto;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin: 0 0 15px 10px;
+}
+
+a {
+    color: #F8FFD2;
+}
